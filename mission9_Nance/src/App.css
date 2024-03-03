@@ -1,0 +1,53 @@
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.school-details {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.school-details summary {
+  font-weight: bold;
+}
+
+.school-details h3,
+.school-details h4 {
+  margin-left: 20px;
+}
+
+.school-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .school-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Search Bar Styling */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  box-sizing: border-box;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
