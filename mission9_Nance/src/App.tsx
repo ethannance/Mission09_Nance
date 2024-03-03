@@ -17,8 +17,8 @@ function Welcome() {
     <>
       <h1 className="text-center">Welcome!</h1>
       <h2 className="text-center">
-        This site includes a list of college basketball team cards and their
-        information.
+        This site includes a list of all the colleges in NCAA Basketball and
+        their information.
       </h2>
     </>
   );
