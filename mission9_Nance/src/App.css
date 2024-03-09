@@ -10,16 +10,17 @@
   padding: 10px;
   border-radius: 5px;
   background: #f9f9f9;
-  cursor: pointer;
+  text-align: center; /* Centering text inside the card */
 }
 
 .school-details summary {
   font-weight: bold;
+  cursor: pointer; /* Making it clear that it's clickable */
 }
 
 .school-details h3,
 .school-details h4 {
-  margin-left: 20px;
+  margin: 5px 0; /* Adjust margin as needed, remove left margin */
 }
 
 .school-list {

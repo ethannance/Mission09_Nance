@@ -29,15 +29,15 @@ class School extends React.Component<SchoolBlah> {
     const { school, name, city, state } = this.props;
 
     return (
-      <details className="school-details">
-        <summary>{school}</summary>
+      <div className="school-details">
+        <h3>{school}</h3>
         <div>
           <p>Mascot Name: {name}</p>
           <p>
             Location: {city}, {state}
           </p>
         </div>
-      </details>
+      </div>
     );
   }
 }
